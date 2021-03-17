@@ -103,7 +103,7 @@ for area in economic_areas:
         session.mount('http://', adapter)
         session.mount('https://', adapter)
 
-        api_key = '5bc9c8b1cdd3dba3ffd333590bf73234'
+        api_key = 'your_api_key'
 
 
         # first call to the the server to retrieve the id of the data series we want to collect
